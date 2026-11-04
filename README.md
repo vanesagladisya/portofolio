@@ -1,100 +1,95 @@
+# Personal Portfolio Website – Vanesa Gladisya Mamanua
 
-# Vanesa Gladisya Mamanua — Portfolio
+Project Ujian Tengah Semester (UTS) mata kuliah **Pemrograman Berbasis Framework**. Website ini merupakan portofolio pribadi yang menampilkan profil, keahlian (skills), dan proyek-proyek yang telah dikerjakan.
 
-A personal portfolio website built with React and Vite, featuring a dark-purple theme with lavender and pink accents.
+##  Deskripsi Project
 
-## Features
+Website portofolio ini dikembangkan menggunakan React JS dan Vite dengan mengusung tema antariksa (*space theme*). Desain menggunakan mode gelap (*dark mode*) dengan aksen warna ungu dan pink, serta dilengkapi fitur pergantian tema ke mode terang (*light mode*).
 
-- Responsive layout for desktop, tablet, and mobile.
-- Dark mode and light mode toggle.
-- Smooth scrolling navigation.
-- About, Skills, Projects, and Connect sections.
-- Email, LinkedIn, and Instagram links.
-- Artistic illustrations and visual effects.
+Website dirancang secara responsif agar dapat diakses dengan nyaman melalui perangkat desktop, tablet, maupun smartphone.
 
-## Requirements
+##  Fitur Utama
 
-Before running the project, make sure you have installed:
+1. **Responsive Design** – Tampilan menyesuaikan ukuran layar desktop, tablet, dan smartphone.
+2. **Dark & Light Mode** – Fitur pergantian tema menggunakan React State.
+3. **Smooth Scroll Navigation** – Navigasi antarbagian Home, About, Skills, Project, dan Connect dengan efek scroll halus.
+4. **CSS Animation** – Ilustrasi pada Hero Section berupa planet, orbit, dan bintang dibuat menggunakan CSS.
+5. **GitHub Integration** – Kartu proyek dilengkapi tautan menuju repository GitHub terkait.
 
-- [Node.js](https://nodejs.org/)
-- npm (included with Node.js)
-- Visual Studio Code (recommended)
+##  Teknologi yang Digunakan
 
-## Run on Windows
+| Teknologi | Keterangan |
+|---|---|
+| React JS | Library utama untuk membangun antarmuka |
+| Vite | Build tool dan development server |
+| Vanilla CSS3 | Styling menggunakan Custom Properties, Flexbox, dan CSS Grid |
+| Lucide React | Library ikon |
+| Google Fonts | DM Sans dan Manrope |
 
-### 1. Open the project folder
+##  Instalasi dan Menjalankan Project
 
-Open the project folder in Visual Studio Code.
+Pastikan Node.js dan Git telah terinstal di komputer.
 
-Make sure the folder contains:
+### 1. Clone Repository
 
-- `package.json`
-- `index.html`
-- `src/`
-- `README.md`
+```bash
+git clone https://github.com/vanesagladisya/portofolio.git
+```
 
-### 2. Open the terminal
+### 2. Masuk ke Direktori Project
 
-In Visual Studio Code, select **Terminal → New Terminal**.
+```bash
+cd portofolio
+```
 
-Make sure the terminal is inside the folder containing `package.json`.
-
-### 3. Install dependencies
-
-Run:
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-If PowerShell blocks `npm.ps1`, use:
-
-```powershell
-npm.cmd install
-```
-
-### 4. Start the development server
-
-Run:
+### 4. Jalankan Development Server
 
 ```bash
 npm run dev
 ```
 
-If PowerShell blocks `npm.ps1`, use:
+### 5. Buka Website
 
-```powershell
-npm.cmd run dev
+Buka browser dan akses alamat berikut:
+
+```text
+http://localhost:5173
 ```
 
-### 5. Open the website
+Jika Vite menampilkan alamat yang berbeda di terminal, gunakan alamat tersebut.
 
-Open the local URL printed in the terminal. It is usually:
+## 📸 Dokumentasi Website
 
-http://localhost:5173/
+### 1. Home – Dark Mode
 
-Keep the terminal running while viewing the website.
+![Home Dark Mode](./screenshots/Home%20dark%20mode.png)
 
-## Production Build
+### 2. Home – Light Mode
 
-To check the project and create a production build, run:
+![Home Light Mode](./screenshots/home%20light%20mode.png)
 
-```bash
-npm.cmd run build
-```
+### 3. About
 
-If successful, the production files will be generated in the `dist/` folder.
+![About](./screenshots/about.png)
 
-## Deployment
+### 4. Skills
 
-This project uses Vite and can be deployed to a hosting platform that supports static websites, such as Vercel.
+![Skills](./screenshots/skills.png)
 
-Before deploying, make sure the production build completes without errors.
+### 5. Projects
 
-## Notes
+![Projects](./screenshots/project.png)
 
-- Project cards are placeholders because the actual project names, descriptions, and images have not yet been provided.
-- GitHub remains a placeholder until the correct profile URL is confirmed.
-- Review the Skills section and remove any tools you have not actually used.
-- The design follows the approved visual direction but is not guaranteed to be pixel-identical to the reference. Browser rendering, screen size, and font availability may affect the appearance.
-- No backend or working contact form is included. The email buttons open the user's default email application.
+### 6. Connect
+
+![Connect](./screenshots/connect.png)
+
+---
+
+Dibuat oleh **Vanesa Gladisya Mamanua** untuk memenuhi tugas UTS mata kuliah Pemrograman Berbasis Framework.
