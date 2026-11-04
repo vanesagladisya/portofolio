@@ -1,100 +1,31 @@
+# Personal Portfolio Website - Vanesa Gladisya Mamanua
 
-# Vanesa Gladisya Mamanua — Portfolio
+Project Ujian Tengah Semester (UTS) mata kuliah Pemrograman Berbasis Framework. Website ini adalah portofolio pribadi yang menampilkan profil, keahlian (skills), serta proyek-proyek yang telah dikerjakan.
 
-A personal portfolio website built with React and Vite, featuring a dark-purple theme with lavender and pink accents.
+##  Deskripsi Project
 
-## Features
+Website portofolio ini dibuat menggunakan React JS dan Vite dengan mengusung tema antariksa (space theme). Desain utamanya menggunakan mode gelap (dark mode) yang elegan dengan aksen warna ungu dan pink, serta dilengkapi fitur pengubah tema ke mode terang (light mode). Website ini sepenuhnya responsif dan dapat diakses dengan baik melalui perangkat desktop maupun mobile.
 
-- Responsive layout for desktop, tablet, and mobile.
-- Dark mode and light mode toggle.
-- Smooth scrolling navigation.
-- About, Skills, Projects, and Connect sections.
-- Email, LinkedIn, and Instagram links.
-- Artistic illustrations and visual effects.
+##  Fitur Utama
 
-## Requirements
+1. **Desain Responsif**: Tampilan menyesuaikan secara otomatis dengan ukuran layar (desktop, tablet, dan smartphone).
+2. **Dark & Light Mode**: Fitur untuk mengganti tema terang/gelap menggunakan React State.
+3. **Navigasi Smooth Scroll**: Perpindahan antar bagian (Home, About, Skills, Project, Connect) dengan animasi scroll yang halus.
+4. **Animasi CSS**: Ilustrasi hero section (planet, orbit, dan bintang) dibuat menggunakan CSS murni.
+5. **Integrasi GitHub**: Setiap kartu proyek dilengkapi dengan tautan langsung (View on GitHub) ke repository masing-masing.
 
-Before running the project, make sure you have installed:
+##  Teknologi yang Digunakan
 
-- [Node.js](https://nodejs.org/)
-- npm (included with Node.js)
-- Visual Studio Code (recommended)
+- **Framework Utama**: React JS (v18+)
+- **Build Tool**: Vite
+- **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, CSS Grid)
+- **Ikon**: Lucide React
+- **Font**: Google Fonts (DM Sans & Manrope)
 
-## Run on Windows
+##  Cara Instalasi & Menjalankan Project
 
-### 1. Open the project folder
+Ikuti langkah-langkah berikut untuk menjalankan project ini di komputer lokal:
 
-Open the project folder in Visual Studio Code.
-
-Make sure the folder contains:
-
-- `package.json`
-- `index.html`
-- `src/`
-- `README.md`
-
-### 2. Open the terminal
-
-In Visual Studio Code, select **Terminal → New Terminal**.
-
-Make sure the terminal is inside the folder containing `package.json`.
-
-### 3. Install dependencies
-
-Run:
-
-```bash
-npm install
-```
-
-If PowerShell blocks `npm.ps1`, use:
-
-```powershell
-npm.cmd install
-```
-
-### 4. Start the development server
-
-Run:
-
-```bash
-npm run dev
-```
-
-If PowerShell blocks `npm.ps1`, use:
-
-```powershell
-npm.cmd run dev
-```
-
-### 5. Open the website
-
-Open the local URL printed in the terminal. It is usually:
-
-http://localhost:5173/
-
-Keep the terminal running while viewing the website.
-
-## Production Build
-
-To check the project and create a production build, run:
-
-```bash
-npm.cmd run build
-```
-
-If successful, the production files will be generated in the `dist/` folder.
-
-## Deployment
-
-This project uses Vite and can be deployed to a hosting platform that supports static websites, such as Vercel.
-
-Before deploying, make sure the production build completes without errors.
-
-## Notes
-
-- Project cards are placeholders because the actual project names, descriptions, and images have not yet been provided.
-- GitHub remains a placeholder until the correct profile URL is confirmed.
-- Review the Skills section and remove any tools you have not actually used.
-- The design follows the approved visual direction but is not guaranteed to be pixel-identical to the reference. Browser rendering, screen size, and font availability may affect the appearance.
-- No backend or working contact form is included. The email buttons open the user's default email application.
+1. **Clone repository ini:**
+   ```bash
+   git clone https://github.com/vanesagladisya/portofolio.git
