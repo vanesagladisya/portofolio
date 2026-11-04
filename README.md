@@ -66,13 +66,13 @@ Jika Vite menampilkan alamat yang berbeda di terminal, gunakan alamat tersebut.
 
 ## 📸 Dokumentasi Website
 
-### 1. Home – Dark Mode
-
-<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/Home%20dark%20mode.png" alt="Home Dark Mode" width="100%">
-
-### 2. Home – Light Mode
+### 1. Home – Light Mode
 
 <img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/home%20light%20mode.png" alt="Home Light Mode" width="100%">
+
+### 2. Home – Dark Mode
+
+<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/Home%20dark%20mode.png" alt="Home Dark Mode" width="100%">
 
 ### 3. About
 
