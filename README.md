@@ -1,31 +1,95 @@
-# Personal Portfolio Website - Vanesa Gladisya Mamanua
+# Personal Portfolio Website – Vanesa Gladisya Mamanua
 
-Project Ujian Tengah Semester (UTS) mata kuliah Pemrograman Berbasis Framework. Website ini adalah portofolio pribadi yang menampilkan profil, keahlian (skills), serta proyek-proyek yang telah dikerjakan.
+Project Ujian Tengah Semester (UTS) mata kuliah **Pemrograman Berbasis Framework**. Website ini merupakan portofolio pribadi yang menampilkan profil, keahlian (skills), dan proyek-proyek yang telah dikerjakan.
 
 ##  Deskripsi Project
 
-Website portofolio ini dibuat menggunakan React JS dan Vite dengan mengusung tema antariksa (space theme). Desain utamanya menggunakan mode gelap (dark mode) yang elegan dengan aksen warna ungu dan pink, serta dilengkapi fitur pengubah tema ke mode terang (light mode). Website ini sepenuhnya responsif dan dapat diakses dengan baik melalui perangkat desktop maupun mobile.
+Website portofolio ini dikembangkan menggunakan React JS dan Vite dengan mengusung tema antariksa (*space theme*). Desain menggunakan mode gelap (*dark mode*) dengan aksen warna ungu dan pink, serta dilengkapi fitur pergantian tema ke mode terang (*light mode*).
+
+Website dirancang secara responsif agar dapat diakses dengan nyaman melalui perangkat desktop, tablet, maupun smartphone.
 
 ##  Fitur Utama
 
-1. **Desain Responsif**: Tampilan menyesuaikan secara otomatis dengan ukuran layar (desktop, tablet, dan smartphone).
-2. **Dark & Light Mode**: Fitur untuk mengganti tema terang/gelap menggunakan React State.
-3. **Navigasi Smooth Scroll**: Perpindahan antar bagian (Home, About, Skills, Project, Connect) dengan animasi scroll yang halus.
-4. **Animasi CSS**: Ilustrasi hero section (planet, orbit, dan bintang) dibuat menggunakan CSS murni.
-5. **Integrasi GitHub**: Setiap kartu proyek dilengkapi dengan tautan langsung (View on GitHub) ke repository masing-masing.
+1. **Responsive Design** – Tampilan menyesuaikan ukuran layar desktop, tablet, dan smartphone.
+2. **Dark & Light Mode** – Fitur pergantian tema menggunakan React State.
+3. **Smooth Scroll Navigation** – Navigasi antarbagian Home, About, Skills, Project, dan Connect dengan efek scroll halus.
+4. **CSS Animation** – Ilustrasi pada Hero Section berupa planet, orbit, dan bintang dibuat menggunakan CSS.
+5. **GitHub Integration** – Kartu proyek dilengkapi tautan menuju repository GitHub terkait.
 
 ##  Teknologi yang Digunakan
 
-- **Framework Utama**: React JS (v18+)
-- **Build Tool**: Vite
-- **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, CSS Grid)
-- **Ikon**: Lucide React
-- **Font**: Google Fonts (DM Sans & Manrope)
+| Teknologi | Keterangan |
+|---|---|
+| React JS | Library utama untuk membangun antarmuka |
+| Vite | Build tool dan development server |
+| Vanilla CSS3 | Styling menggunakan Custom Properties, Flexbox, dan CSS Grid |
+| Lucide React | Library ikon |
+| Google Fonts | DM Sans dan Manrope |
 
-##  Cara Instalasi & Menjalankan Project
+##  Instalasi dan Menjalankan Project
 
-Ikuti langkah-langkah berikut untuk menjalankan project ini di komputer lokal:
+Pastikan Node.js dan Git telah terinstal di komputer.
 
-1. **Clone repository ini:**
-   ```bash
-   git clone https://github.com/vanesagladisya/portofolio.git
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/vanesagladisya/portofolio.git
+```
+
+### 2. Masuk ke Direktori Project
+
+```bash
+cd portofolio
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Jalankan Development Server
+
+```bash
+npm run dev
+```
+
+### 5. Buka Website
+
+Buka browser dan akses alamat berikut:
+
+```text
+http://localhost:5173
+```
+
+Jika Vite menampilkan alamat yang berbeda di terminal, gunakan alamat tersebut.
+
+## 📸 Dokumentasi Website
+
+### 1. Home – Dark Mode
+
+![Home Dark Mode](./screenshots/Home%20dark%20mode.png)
+
+### 2. Home – Light Mode
+
+![Home Light Mode](./screenshots/home%20light%20mode.png)
+
+### 3. About
+
+![About](./screenshots/about.png)
+
+### 4. Skills
+
+![Skills](./screenshots/skills.png)
+
+### 5. Projects
+
+![Projects](./screenshots/project.png)
+
+### 6. Connect
+
+![Connect](./screenshots/connect.png)
+
+---
+
+Dibuat oleh **Vanesa Gladisya Mamanua** 
