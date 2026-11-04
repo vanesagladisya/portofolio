@@ -67,28 +67,22 @@ Jika Vite menampilkan alamat yang berbeda di terminal, gunakan alamat tersebut.
 ## 📸 Dokumentasi Website
 
 ### 1. Home – Dark Mode
-
-![Home Dark Mode](./screenshots/Home%20dark%20mode.png)
+<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/Home%20dark%20mode.png" alt="Home Dark Mode" width="100%">
 
 ### 2. Home – Light Mode
-
-![Home Light Mode](./screenshots/home%20light%20mode.png)
+<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/home%20light%20mode.png" alt="Home Light Mode" width="100%">
 
 ### 3. About
-
-![About](./screenshots/about.png)
+<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/about.png" alt="About" width="100%">
 
 ### 4. Skills
-
-![Skills](./screenshots/skills.png)
+<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/skills.png" alt="Skills" width="100%">
 
 ### 5. Projects
-
-![Projects](./screenshots/project.png)
+<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/project.png" alt="Projects" width="100%">
 
 ### 6. Connect
-
-![Connect](./screenshots/connect.png)
+<img src="https://raw.githubusercontent.com/vanesagladisya/portofolio/main/ss%20web%20portofolio/connect.png" alt="Connect" width="100%">
 
 ---
 
